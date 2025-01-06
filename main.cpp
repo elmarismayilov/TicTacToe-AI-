@@ -26,7 +26,7 @@ int main()
     sf::RenderWindow window(sf::VideoMode(320, 320), "Tic-Tac-Toe");
 
     sf::Font font;
-    if (!font.loadFromFile("/Users/elmar/Downloads/FilesBefore25december/arial/ARIAL.TTF")) // Replace with a valid font path
+    if (!font.loadFromFile("#FONTS PATH")) // Replace with a valid font path
     {
         std::cerr << "Failed to load font\n";
         return -1;
